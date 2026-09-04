@@ -1,13 +1,11 @@
-# Superstore Sales Dashboard
+# SuperSales Dashboard
 
 Business Intelligence case study built in Power BI to explore **sales, profit, products, geography, shipping and order trends**.
 
 ## Deliverables
 
-- `Projeto_SuperSales_2023_Pedro_H.V._port.pbix` — original Power BI model/report.
-- `Projetos_SuperSales_2023_Pedro_H.V..pdf` — static export for review.
-
-> Binary filenames preserve historical naming from the original artifact. The current author name is **Harrison Grant Vail**.
+- `supersales_dashboard.pbix` — interactive Power BI model/report.
+- `supersales_dashboard.pdf` — static export for quick review.
 
 ## Analytical questions
 
