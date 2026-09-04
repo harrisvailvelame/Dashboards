@@ -1,16 +1,14 @@
-# Super Sales V2
+# SuperSales V2
 
-![Dashboard preview](./Inserir%20um%20t%C3%ADtulo.png)
+![Dashboard preview](./dashboard_preview.png)
 
 Revised Power BI iteration of the Superstore sales analysis, focused on **sales, profit, category performance, geography, products, shipping and order trends**.
 
 ## Deliverables
 
-- `Projeto_SuperSales_2023_Pedro_H.V._port.pbix` — interactive Power BI source.
-- `Projeto_SuperSales_2023_Pedro_H.V._port.pdf` — static dashboard export.
-- `Inserir um título.png` — dashboard preview image.
-
-> Some source filenames preserve the original historical naming. The current author name is **Harrison Grant Vail**.
+- `supersales_v2.pbix` — interactive Power BI source.
+- `supersales_v2.pdf` — static dashboard export.
+- `dashboard_preview.png` — visual preview.
 
 ## Analytical scope
 
