@@ -1,0 +1,37 @@
+name: dashboard-structure
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate portfolio structure
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -f Orders_Requests_Analysis/README.md
+          test -f Orders_Requests_Analysis/orders_requests_analysis.pbix
+          test -f Orders_Requests_Analysis/orders_requests_analysis.pdf
+          test -f Retail_Sales_Dashboard/README.md
+          test -f Retail_Sales_Dashboard/retail_sales.pbix
+          test -f Retail_Sales_Dashboard/retail_sales.pdf
+          test -f SuperSales/README.md
+          test -f SuperSales/supersales_dashboard.pbix
+          test -f SuperSales/supersales_dashboard.pdf
+          test -f SuperSales_V2/README.md
+          test -f SuperSales_V2/supersales_v2.pbix
+          test -f SuperSales_V2/supersales_v2.pdf
+          test -f SuperSales_V2/dashboard_preview.png
+      - name: Reject legacy naming in tracked paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-files | grep -Ei 'pedro|inserir um t[ií]tulo'; then
+            echo 'Legacy naming detected in tracked paths.'
+            exit 1
+          fi
