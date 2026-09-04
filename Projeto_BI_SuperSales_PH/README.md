@@ -1,42 +1,41 @@
-# Superstore Sales Dashboard 🚀
+# Superstore Sales Dashboard
 
-Bem-vindo ao meu novo projeto de análise de dados: Superstore Sales Dashboard! 📊
+Business Intelligence case study built in Power BI to explore **sales, profit, products, geography, shipping and order trends**.
 
-Este dashboard incrível mergulha nos dados do conjunto "Superstore Sales", proporcionando uma visão abrangente das operações de vendas ao longo do tempo e em diversas dimensões.
+## Deliverables
 
-## Principais Destaques 🌟
+- `Projeto_SuperSales_2023_Pedro_H.V._port.pbix` — original Power BI model/report.
+- `Projetos_SuperSales_2023_Pedro_H.V..pdf` — static export for review.
 
-1. **Exploração Temporal de Vendas e Lucros 📈💹**
-   - Jornada temporal intrigante, destacando vendas crescentes e lucros em ascensão. Ajuste estratégico ao longo do tempo.
+> Binary filenames preserve historical naming from the original artifact. The current author name is **Harrison Grant Vail**.
 
-2. **Cartografia das Cidades Lucrativas 🗺️💰**
-   - Mapa interativo revelando cidades mais lucrativas para direcionar operações de vendas estratégicas.
+## Analytical questions
 
-3. **Análise Estatística Profunda 📊🔍**
-   - Mergulhe em médias, medianas e picos de lucratividade para insights precisos.
+The dashboard is designed to help answer questions such as:
 
-4. **Subcategorias Sob os Holofotes 🛍️📊**
-   - Visão detalhada das subcategorias mais vendidas, facilitando a identificação de produtos em alta demanda.
+- How do sales and profit evolve over time?
+- Which cities and categories contribute most to profitability?
+- Which subcategories and products drive volume?
+- How is quantity distributed across categories?
+- How do shipping modes compare from a business-performance perspective?
+- How does order activity change over time?
 
-5. **Distribuição Inteligente: Quantidade por Categoria 📦🔍**
-   - Decifre a complexidade da distribuição de produtos por categoria para estratégias de portfólio eficientes.
+## BI design principles demonstrated
 
-6. **Radiografia do Lucro por Categoria 💹📈**
-   - Desempenho aprofundado de cada categoria, revelando padrões e oportunidades.
+- KPI-first visual hierarchy;
+- consistent dimensional filtering;
+- comparison across category, product, geography and time;
+- separation of summary indicators from detailed exploration;
+- use of a static export alongside the interactive `.pbix` artifact.
 
-7. **Relacionamento Lucro-Valor 💲🔄**
-   - Navegue pelo intricado relacionamento entre lucro e valor para otimização operacional.
+## How to review
 
-8. **Estrelas nas Prateleiras: Produtos Mais Vendidos 🏆📊**
-   - Descubra os campeões de vendas, destacados em gráficos de medalhas.
+Use the PDF for a quick static inspection. Open the `.pbix` file in Power BI Desktop for the interactive model.
 
-9. **Rotas Lucrativas: Modalidades de Envio 🚚📈**
-   - Explore as modalidades de envio mais rentáveis em um dashboard moderno.
+## Portfolio context
 
-10. **Trajetória Temporal: Quantidade de Pedidos ao Longo do Tempo ⌛📈**
-    - Acompanhe a dinâmica da quantidade de pedidos em gráficos interativos.
+This is an earlier BI project. My current technical focus is Data Engineering, including lakehouse architecture, data quality, dbt and distributed processing. See [`harrisvailvelame/pedrohvel`](https://github.com/harrisvailvelame/pedrohvel).
 
-## Explorando o Dashboard
-Para uma imersão completa nos dados de vendas da Superstore, acesse as visualizações interativas neste repositório. 🚀🔍
+---
 
-**#SuperstoreSales #DataAnalytics #BusinessIntelligence #DataRevolution**
+**Author:** Harrison Grant Vail
