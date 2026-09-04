@@ -4,8 +4,8 @@ Power BI project focused on **retail sales performance, KPI visibility and busin
 
 ## Deliverables
 
-- `Dashboard de Vendas.pbix` — interactive Power BI source.
-- `Sales Dashboard.pdf` — static export for quick review.
+- `retail_sales.pbix` — interactive Power BI source.
+- `retail_sales.pdf` — static export for quick review.
 
 ## Analytical focus
 
